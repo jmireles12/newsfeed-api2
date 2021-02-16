@@ -1,0 +1,9 @@
+TRUNCATE tabs RESTART IDENTITY CASCADE;
+
+INSERT INTO tabs (name)
+VALUES
+    ('ITEM ONE'),
+
+    ('ITEM TWO'),
+
+    ('ITEM THREE')
