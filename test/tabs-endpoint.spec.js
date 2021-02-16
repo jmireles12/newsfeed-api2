@@ -3,7 +3,6 @@ const app = require('../src/app')
 const { makeTabsArray } = require('./tabs.fixtures')
 const supertest = require('supertest')
 const { expect } = require('chai')
-const { updateTab } = require('../src/tabs/tabs-service')
 
 describe('Tabs Endpoint', function() {
     let db
