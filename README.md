@@ -1,6 +1,11 @@
 # NewsFeed-API
 
-This is a server for the app NewsFeed. The server provides an endpoint for the app to save Tabs to toggle between content for news.
+## API Documentation
+
+This is an API for the app NewsFeed. The API provides an endpoint for the app to save Tabs to toggle between content for news.
+
+Tabs to specify the content of news feed.
+GET: /tabs
 
 ## Live App
 
